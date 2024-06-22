@@ -49,7 +49,6 @@ To train the model and evaluate its performance, run the following command:
 ```bash
 python mnist_classification.py --epochs 5 --batch_size 64 --hidden_layers 256 512 --activation relu --loss_function cross_entropy --optimizer adam
 
-```markdown
 ## Command-line Arguments
 
 - `--epochs`: Number of epochs for training (default: 5).
@@ -58,7 +57,7 @@ python mnist_classification.py --epochs 5 --batch_size 64 --hidden_layers 256 51
 - `--activation`: Activation function to use ('relu' or 'sigmoid', default: 'relu').
 - `--loss_function`: Loss function to use ('cross_entropy' or 'mse', default: 'cross_entropy').
 - `--optimizer`: Optimizer to use ('adam' or 'sgd', default: 'adam').
-
+```
 ## Tasks
 
 ### Task 0: Data Preparation and Augmentation
